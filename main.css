@@ -1,0 +1,122 @@
+
+*{
+    box-sizing: border-box;
+    background-color: #fff;
+}
+li,a,h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:black
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color:black
+
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color:black
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items li{
+    display: inline-block;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.logo{
+    padding: 0%;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+.nav{
+    display: inline-block;
+}
+.nav-items :hover{
+    color: rgb(250, 4, 4);
+}
+.phoneimg{
+    width: 100%;
+}
+.heading{
+    margin-left: 80px;
+    position: absolute; top: 35%; text-align: center;
+    font-size: 50px;
+} 
+.fold4 h4{
+    cursor: pointer;
+    margin-left: 80px;
+    position: absolute; top: 50%; text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif; color: aliceblue;
+    padding: 15px;
+    background-color: black;
+    
+} 
+.fold4 h3{
+    background-color: transparent;
+}
+.weekin h3{
+    text-align: center;
+    font-size: 40px;
+}
+.nav-items2 li{
+    display: inline-block;
+    padding: 0px 30px;
+    cursor: pointer;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.nav-items2 :hover{
+    color: rgb(250, 4, 4);
+}
+.tiles >div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.tiles{
+    margin-left: 70px;
+}
+.grid2 >div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 150px;
+  }
+.selfi h1{
+    text-align: center;
+}
+.import{
+    border-radius: 25px;
+}
+.grid3 >div{
+    display: grid;
+    grid-template-columns: 50%;
+}
+.nav-items3 li{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.search h2{
+    margin-left: 50px;
+}
+footer{
+    
+}
